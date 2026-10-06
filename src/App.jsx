@@ -33,7 +33,7 @@ function App() {
 
       <nav className="navbar">
         <a href="#" className="logo" onClick={closeMenu}>
-          R<span>.</span>
+          Ranganath R<span>.</span>
         </a>
 
         <div className="nav-links">
@@ -131,7 +131,7 @@ function App() {
 
         </div>
 
-        {/* HERO CARD */}
+        {/* ================= HERO CARD ================= */}
 
         <div className="hero-visual">
           <div className="hero-grid-lines"></div>
@@ -203,6 +203,7 @@ function App() {
         <div className="about-container">
 
           <div className="about-content">
+
             <h2>
               Building skills through
               <span> real projects.</span>
@@ -229,6 +230,7 @@ function App() {
               I believe the best way to learn software engineering is by
               building, experimenting, debugging, and continuously improving.
             </p>
+
           </div>
 
           <div className="about-stats">
@@ -260,6 +262,7 @@ function App() {
           </div>
 
         </div>
+
       </section>
 
       {/* ================= SKILLS ================= */}
@@ -277,25 +280,62 @@ function App() {
 
         <div className="skills-grid">
 
-          <Skill icon="C" title="C" text="Programming fundamentals, memory concepts, pointers, and problem solving." />
+          <Skill
+            icon="C"
+            title="C"
+            text="Programming fundamentals, memory concepts, pointers, and problem solving."
+          />
 
-          <Skill icon="C++" title="C++" text="Data Structures, Algorithms, STL, and problem solving practice." />
+          <Skill
+            icon="C++"
+            title="C++"
+            text="Data Structures, Algorithms, STL, and problem solving practice."
+          />
 
-          <Skill icon="JV" title="Java" text="Object-oriented programming and core programming concepts." />
+          <Skill
+            icon="JV"
+            title="Java"
+            text="Object-oriented programming and core programming concepts."
+          />
 
-          <Skill icon="JS" title="JavaScript" text="Interactive web development and modern frontend programming." />
+          <Skill
+            icon="JS"
+            title="JavaScript"
+            text="Interactive web development and modern frontend programming."
+          />
 
-          <Skill icon="⚛" title="React" text="Component-based frontend development using React and Vite." />
+          <Skill
+            icon="⚛"
+            title="React"
+            text="Component-based frontend development using React and Vite."
+          />
 
-          <Skill icon="ND" title="Node.js" text="Backend development, APIs, and server-side JavaScript." />
+          <Skill
+            icon="ND"
+            title="Node.js"
+            text="Backend development, APIs, and server-side JavaScript."
+          />
 
-          <Skill icon="DB" title="Supabase" text="Database integration, data storage, and backend services." />
+          <Skill
+            icon="DB"
+            title="Supabase"
+            text="Database integration, data storage, and backend services."
+          />
 
-          <Skill icon="Git" title="Git & GitHub" text="Version control, repositories, and software development workflows." />
+          <Skill
+            icon="Git"
+            title="Git & GitHub"
+            text="Version control, repositories, and software development workflows."
+          />
 
-          <Skill icon="DSA" title="Data Structures & Algorithms" text="Arrays, linked lists, trees, graphs, sorting, searching, and problem solving." />
+          <Skill
+            icon="DSA"
+            title="Data Structures & Algorithms"
+            text="Arrays, linked lists, trees, graphs, sorting, searching, and problem solving."
+          />
 
         </div>
+
       </section>
 
       {/* ================= PROJECTS ================= */}
@@ -324,7 +364,7 @@ function App() {
 
         <div className="projects-grid">
 
-          {/* PROJECT 01 */}
+          {/* ================= PROJECT 01 ================= */}
 
           <article className="project-card">
 
@@ -365,6 +405,7 @@ function App() {
 
                     <div className="task-item">
                       <span className="check"></span>
+
                       <div>
                         <strong>Study DSA</strong>
                         <small>Algorithms practice</small>
@@ -373,6 +414,7 @@ function App() {
 
                     <div className="task-item">
                       <span className="check"></span>
+
                       <div>
                         <strong>Complete Assignment</strong>
                         <small>Academic task</small>
@@ -381,6 +423,7 @@ function App() {
 
                     <div className="task-item completed">
                       <span className="check">✓</span>
+
                       <div>
                         <strong>Build Project</strong>
                         <small>Completed</small>
@@ -390,6 +433,7 @@ function App() {
                   </div>
 
                 </div>
+
               </div>
 
               <div className="project-visual-label">
@@ -446,6 +490,7 @@ function App() {
               </div>
 
               <div className="project-footer">
+
                 <a
                   href="https://github.com/Ranganath-R"
                   target="_blank"
@@ -454,12 +499,14 @@ function App() {
                 >
                   View on GitHub <span>↗</span>
                 </a>
+
               </div>
 
             </div>
+
           </article>
 
-          {/* PROJECT 02 */}
+          {/* ================= PROJECT 02 ================= */}
 
           <article className="project-card">
 
@@ -544,6 +591,7 @@ function App() {
               </div>
 
               <div className="project-footer">
+
                 <a
                   href="https://github.com/Ranganath-R"
                   target="_blank"
@@ -552,12 +600,15 @@ function App() {
                 >
                   View on GitHub <span>↗</span>
                 </a>
+
               </div>
 
             </div>
+
           </article>
 
         </div>
+
       </section>
 
       {/* ================= EDUCATION ================= */}
@@ -608,6 +659,7 @@ function App() {
           />
 
         </div>
+
       </section>
 
       {/* ================= CONTACT ================= */}
@@ -719,6 +771,7 @@ function App() {
         <p>© 2026 Ranganath R. Built with React.</p>
 
         <div className="footer-links">
+
           <a
             href="https://github.com/Ranganath-R"
             target="_blank"
@@ -732,6 +785,7 @@ function App() {
           <a href="mailto:ranganathrr@gmail.com">
             Email
           </a>
+
         </div>
 
       </footer>
@@ -739,7 +793,6 @@ function App() {
     </div>
   );
 }
-
 
 /* ================= REUSABLE COMPONENTS ================= */
 
@@ -755,7 +808,6 @@ function Skill({ icon, title, text }) {
     </div>
   );
 }
-
 
 function Education({
   meta,
@@ -790,9 +842,9 @@ function Education({
         </div>
 
       </div>
+
     </div>
   );
 }
-
 
 export default App;
